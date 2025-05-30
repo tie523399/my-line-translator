@@ -1,0 +1,17 @@
+{
+  "name": "line-zh-vi-translator",
+  "version": "1.0.0",
+  "description": "LINE 中文越南文翻譯機器人",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  }
+}
